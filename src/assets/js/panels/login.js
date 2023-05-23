@@ -147,7 +147,6 @@ class Login {
             let account_connect = await Mojang.login(mailInput.value, passwordInput.value)
 
             if (account_connect == null || account_connect.error) {
-                console.log(err)
                 cancelMojangBtn.disabled = false;
                 loginBtn.disabled = false;
                 mailInput.disabled = false;
@@ -235,7 +234,6 @@ class Login {
             let account_connect = await Mojang.login(mailInput.value, passwordInput.value)
 
             if (account_connect == null || account_connect.error) {
-                console.log(err)
                 cancelMojangBtn.disabled = false;
                 loginBtn.disabled = false;
                 mailInput.disabled = false;
@@ -274,5 +272,4 @@ class Login {
         })
     }
 }
-
 export default Login;
