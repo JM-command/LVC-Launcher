@@ -1,7 +1,7 @@
 {
     "name": "LVC-Launcher",
     "preductname": "LVC-Launcher",
-    "version": "1.2.7",
+    "version": "1.2.8",
     "description": "Les Vrais Commandos Launcher",
     "main": "src/app.js",
     "author": "JM_command",
